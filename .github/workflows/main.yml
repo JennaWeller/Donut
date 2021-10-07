@@ -31,8 +31,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: VeganDonut
-          environment_name: Vegandonut-env
+          application_name: TheVeganDonutShop
+          environment_name: Thevegandonutshop-env
           version_label: "vegandonut-${{ steps.format-time.outputs.replaced }}"
           region: us-east-2
           deployment_package: deploy-1.zip
