@@ -21,7 +21,7 @@ const Hero = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
-          <HeroH1>The Vegan Donut Shop</HeroH1>
+          <HeroH1>The Vegan Donut Shoppie</HeroH1>
           <HeroP> Est. 2021</HeroP>
           <HeroBtn> Place Order </HeroBtn>
         </HeroItems>
