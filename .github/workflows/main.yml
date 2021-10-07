@@ -35,5 +35,5 @@ jobs:
           environment_name: Vegandonut-env
           version_label: "vegandonut-${{ steps.format-time.outputs.replaced }}"
           region: us-east-2
-          deployment_package: deploy.zip
+          deployment_package: deploy-1.zip
     
