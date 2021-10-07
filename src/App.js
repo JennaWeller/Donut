@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
 import { productData, productDataTwo } from "./components/Products/data";
+import Cart from "./components/Cart";
 function App() {
   return (
     <Router>
