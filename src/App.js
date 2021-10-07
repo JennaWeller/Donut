@@ -6,22 +6,22 @@ import Hero from "./components/Hero";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
 import { productData, productDataTwo } from "./components/Products/data";
-import Cart from "./components/Cart";
+
 function App() {
   return (
     <Router>
       <GlobalStyle />
 
       <Hero />
-      <Products id="Iced" heading="Iced" data={productData} />
+      <Products heading="Iced" data={productData} />
       <Feature />
-      <Products id="Glazed" heading="Glazed" data={productDataTwo} />
+      <Products heading="Glazed" data={productDataTwo} />
       <Feature />
-      <Products id="Filled" heading="Filled" data={productDataTwo} />
+      <Products heading="Filled" data={productDataTwo} />
       <Feature />
-      <Products id="Cake" heading="Cake" data={productDataTwo} />
+      <Products heading="Cake" data={productDataTwo} />
       <Feature />
-      <Products id="Chocolate" heading="Chocolate" data={productDataTwo} />
+      <Products heading="Chocolate" data={productDataTwo} />
       <Footer />
     </Router>
   );
