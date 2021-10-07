@@ -12,15 +12,15 @@ function App() {
       <GlobalStyle />
 
       <Hero />
-      <Products heading="Iced" data={productData} />
+      <Products id="Iced" heading="Iced" data={productData} />
       <Feature />
-      <Products heading="Glazed" data={productDataTwo} />
+      <Products id="Glazed" heading="Glazed" data={productDataTwo} />
       <Feature />
-      <Products heading="Filled" data={productDataTwo} />
+      <Products id="Filled" heading="Filled" data={productDataTwo} />
       <Feature />
-      <Products heading="Cake" data={productDataTwo} />
+      <Products id="Cake" heading="Cake" data={productDataTwo} />
       <Feature />
-      <Products heading="Chocolate" data={productDataTwo} />
+      <Products id="Chocolate" heading="Chocolate" data={productDataTwo} />
       <Footer />
     </Router>
   );

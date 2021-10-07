@@ -9,6 +9,9 @@ import {
   SidebarRoute,
   SideBtnWrap,
 } from "./SidebarElements";
+import { Menu } from "antd";
+import { Anchor } from "antd";
+const { Link } = Anchor;
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -17,11 +20,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Iced</SidebarLink>
-        <SidebarLink to="/">Glazed</SidebarLink>
-        <SidebarLink to="/">Filled</SidebarLink>
-        <SidebarLink to="/">Cake</SidebarLink>
-        <SidebarLink to="/">Chocolate</SidebarLink>
+        <SidebarLink href="#Iced">Iced</SidebarLink>
+        <SidebarLink href="Glazed">Glazed</SidebarLink>
+        <SidebarLink href="Filled">Filled</SidebarLink>
+        <SidebarLink href="Cake">Cake</SidebarLink>
+        <SidebarLink href="Chocolate">Chocolate</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Order Now</SidebarRoute>
