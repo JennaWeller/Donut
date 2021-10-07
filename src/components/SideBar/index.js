@@ -17,11 +17,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink href="/">Iced</SidebarLink>
-        <SidebarLink href="/">Glazed</SidebarLink>
-        <SidebarLink href="/">Filled</SidebarLink>
-        <SidebarLink href="/">Cake</SidebarLink>
-        <SidebarLink href="/">Chocolate</SidebarLink>
+        <SidebarLink>Iced</SidebarLink>
+        <SidebarLink>Glazed</SidebarLink>
+        <SidebarLink>Filled</SidebarLink>
+        <SidebarLink>Cake</SidebarLink>
+        <SidebarLink>Chocolate</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Order Now</SidebarRoute>
