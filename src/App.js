@@ -6,14 +6,13 @@ import Hero from "./components/Hero";
 import Products from "./components/Products";
 import Footer from "./components/Footer";
 import { productData, productDataTwo } from "./components/Products/data";
-
 function App() {
   return (
     <Router>
       <GlobalStyle />
 
       <Hero />
-      <Products heading="Iced" data={productData} />
+      <Products heading="Iced" data={productDataTwo} />
       <Feature />
       <Products heading="Glazed" data={productDataTwo} />
       <Feature />
@@ -26,5 +25,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
